@@ -1,0 +1,63 @@
+body {
+    background-color: #9b373b;
+    color: black;
+}
+
+
+header {
+    background-color: orange; 
+    color: black;
+    padding: 20px;
+    width: 100%;
+    min-height: 150px;
+    text-align: left;
+    display: flex;
+    align-items: center; 
+}
+
+header h1 {
+    font-size: 32px;
+    margin-left: 30px;
+}
+
+.posts-container {
+    background-color: #f4c2c2;
+    width: 400px;
+    margin-left: 40%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.post {
+    border: 3px solid white;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+}
+
+.post .date {
+    font-size: 12px;
+    color: black;
+}
+
+.post h2 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.post h2 a {
+    text-decoration: underline;
+    color: orange;
+    font-weight: bold;
+}
+
+.post p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+footer {
+    background-color: orange; 
+    width: 100%;
+    min-height: 100px;
+}
